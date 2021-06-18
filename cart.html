@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Balance-购物车</title>
+    <link rel="shortcut icon" href="./ico/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/cart.css" />
+</head>
+
+<body>
+    <div class="top">
+        <div class="top-1">
+            <a href="javascript:;">欢迎光临New&nbsp;Balance中国官方商城，新客注册即送350元礼券，新老客户下单即享全场包邮！因技术问题暂不支持支付宝支付，请选择微信支付，给您带来的不便敬请谅解.<span
+                    style="text-decoration: underline;">点击查看详情</span>！ </a>
+            <div class="top-11">
+                <a href="javascript:;">查找商店</a>
+                <img src="./images/route-cn_032.PNG" alt="地区" />
+            </div>
+        </div>
+        <div class="top-2">
+            <a href="./index.html"><img src="./images/nb-logo.jpg" alt="" /></a>
+            <ul>
+                <li><a href="menlist.html">男子</a></li>
+                <li><a href="javascript:;">女子</a></li>
+                <li><a href="javascript:;">男孩</a></li>
+                <li><a href="javascript:;">女孩</a></li>
+            </ul>
+            <div class="top-21 login">
+                <input type="text" name="search" placeholder="搜索" />
+                <!-- <span>欢迎 <a href="jacascript:;">Aurora</a> 回家</span>
+					<span><a href="javascript:;" class="logout">退出</a></span> -->
+                <a href="./account-login.html"><span>登录</span></a>&nbsp;/
+                <a href="./account-login.html"><span>注册</span></a>
+            </div>
+            <div class="cart"><a href="cart.html">购物车</a> </div>
+        </div>
+    </div>
+    <!-- top-end -->
+    <div class="hf clear">
+        <h2>我的购物车</h2>
+    </div>
+    <div class="content">
+        <!-- <div class="nul">
+            <h1>您的购物车没有商品。</h1>
+            <button><a href="menlist.html">继续购物</a></button>
+        </div> -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" name="selectAll"></th>
+                    <th>商品图片</th>
+                    <th>商品名称</th>
+                    <th>商品价格</th>
+                    <th>商品数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 模板样式 -->
+                <!-- <tr valign="bottom">
+                    <td><input type="checkbox" name="selectOne"></td>
+                    <td><img src="https://pic.baike.soso.com/ugc/baikepic2/0/ori-20200228212421-425045101_jpg_500_333_58737.jpg/800"
+                            width="50" height="50"></td>
+                    <td>颐和园</td>
+                    <td class="price">￥<span>25</span></td>
+                    <td class="number" data-stock="10" data-id="3">
+                        <button class="btn btn-default reduce">-</button>
+                        <input type="number" name="number" value="1">
+                        <button class="btn btn-default add">+</button>
+                    </td>
+                    <td class="subtotal">￥<span>10</span></td>
+                    <td><button class="btn btn-danger remove">移除</button></td>
+                </tr> -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input type="checkbox" name="selectAll">&nbsp;全选</td>
+                    <td colspan="2">商品总数：<span class="totalNum">0</span></td>
+                    <td colspan="2">商品总价：<span class="totalPrice">0</span></td>
+                    <td><a class="btn btn-primary" href="menlist.html">回列表页</a></td>
+                    <td><a class="btn btn-warning" href="javascript:;">去结算</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="tipssbg">
+        <div class="tipss">
+            <h3 style="font-family:'微软雅黑';font-weight: normal;">联系我们</h3>
+            <p class="cta-contact" style="font-family:'微软雅黑'">
+                <strong>电子邮件至客服中心</strong> 或致电
+            </p>
+            <p class="cta-contact" style="font-family:'微软雅黑'">
+                <strong>800-820-2887</strong>
+            </p>
+            <p style="font-family:'微软雅黑'">
+                <strong>400-890-2887</strong>
+            </p>
+            <p style="font-family:'微软雅黑'">
+                <strong>
+                    <span class="days">客服时间：星期一 ~ 星期日 9AM ~ 10PM (北京时间)</span>
+                </strong>
+                <br />
+            </p>
+            <p style="font-family:'微软雅黑'">
+                <strong>客服邮箱：consumerservice@newbalance.com</strong>
+            </p>
+        </div>
+    </div>
+    <!-- 客服 -->
+    <div class="kf">
+        <a href="javascript:;">
+            <img src="./images/floating-chat-icon_004.PNG" alt="">
+        </a>
+    </div>
+    <!-- foot -->
+    <footer class="foo">
+        <div class="fotop">
+            <a href="#查找店铺">查找店铺</a>
+            <a href="#订阅资讯">订阅资讯</a>
+        </div>
+        <div class="fo-content">
+            <div class="fo-side">
+                <h5>帮助中心</h5>
+                <ul class="side-nav">
+                    <li><a href="">购买须知</a></li>
+                    <li><a href="">配送及费用</a></li>
+                    <li><a href="">支付方式</a></li>
+                    <li><a href="">退货政策</a></li>
+                </ul>
+            </div>
+            <div class="fo-side">
+                <h5>我的订单</h5>
+                <ul class="side-nav">
+                    <li><a href="">订单查询</a></li>
+                    <li><a href="">关于发票</a></li>
+                </ul>
+            </div>
+            <div class="fo-side">
+                <h5>关于NB</h5>
+                <ul class="side-nav">
+                    <li><a href="">品牌故事</a></li>
+                    <li><a href="">隐私政策</a></li>
+                    <li><a href="">使用条款</a></li>
+                </ul>
+            </div>
+            <div class="fo-side">
+                <h5>保持联系</h5>
+                <ul class="side-nav">
+                    <li>
+                        客服热线：<br />
+                        <span>800-820-2887(请使用固话拨打)</span><br />
+                        <span>400-890-2887(请使用手机拨打)</span><br />
+                        <span>电话服务时间：周一~周五 9AM~6PM <br /></span>
+                        <span>（节假日除外）</span><br />
+                        <span> 在线服务时间：</span><br />
+                        <span>周一 ~ 周日<br />
+                            9AM ~ 10PM</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="fobot">
+            <span style="margin-right:20px;">2019@ New Balance
+                <a href="http://www.beian.miit.gov.cn/" target="_blank">沪ICP备10207056号</a>
+            </span>
+            <span>
+                <img
+                    src="https://www.newbalance.com.cn/on/demandware.static/-/Sites-newbalance_cn-Library/zh/dw8f7428c1/beian-logo.png" />
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502001622"
+                    target="_blank">沪公网安备
+                    31010502001622号</a>
+            </span>
+            <a target="_blank" href="http://si.trustutn.org/info?sn=733190117037595394415&certType=1">
+                <img src="https://v.trustutn.org/images/cert/brand_bottom_large.jpg" />
+            </a>
+            <p>
+                <span>新百伦贸易（中国）有限公司</span>
+                <span>上海市静安区南京西路688号688广场6楼</span>
+            </p>
+        </div>
+    </footer>
+</body>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/layer/layer.js"></script>
+<script src="./js/ajax.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/changeLogin.js"></script>
+<script src="./js/cart.js"></script>
+
+</html>
